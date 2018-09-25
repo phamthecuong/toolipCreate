@@ -1,0 +1,17 @@
+<link rel="stylesheet" type="text/css" href="./lib/jqueryToolTip/jqueryToolTip.css">
+
+<div style="margin-top: 8%; margin-left: 40%;">
+	<a href="#" title="ToolTip Demo">ToolTip Demo</a>
+</div>
+
+<script src="./lib/jquery.js"></script>
+<script src="./lib/jqueryToolTip/jqueryToolTip.js"></script>
+<script type="text/javascript">
+    $(function(){
+        $('a').jqueryToolTip({
+        	position: 'bottom'
+        });
+
+        $('a').changeColor('red');
+    })
+</script>
